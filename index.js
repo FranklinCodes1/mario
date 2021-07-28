@@ -12,9 +12,7 @@ const graphql = document.getElementById('graphql')
 function move() {
   const incrementer = window.scrollY
 
-  // the '10' refers to the height from the bottom of the sky section. We added this
-  // in the css file. Feel free to move all styling to the JS file if you prefer to keep the
-  // the '10' consistent.
+  
   balloon.style.bottom = 5 + incrementer * 0.03 + '%'
 
   cloudOne.style.bottom = 40 + incrementer * 0.05 + '%'
