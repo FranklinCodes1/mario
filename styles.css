@@ -10,7 +10,7 @@ body {
   position: relative;
   background-image: linear-gradient( #F3BADB, #F6D19C);
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
 }
@@ -72,12 +72,14 @@ body {
 
 #air-balloon {
   width: 10%;
-  bottom: 10%;
+  bottom: 5%;
+  right: 35%;
 }
 
 .about-me {
-  height: 600px;
+  height: 400px;
   background-color: #69D31D;
+  background-image: linear-gradient( #F3BADB, #F6D19C);
   padding: 20px;
   display: flex;
   justify-content: center;
