@@ -70,6 +70,11 @@ body {
   left: 38%;
 }
 
+#solidity {
+  width: 5%;
+  bottom: 30%;
+  left: 44%;
+}
 #graphql {
   width: 5%;
   bottom: 30%;

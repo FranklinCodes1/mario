@@ -8,6 +8,7 @@ const javascript = document.getElementById('javascript')
 const react = document.getElementById('react')
 const graphql = document.getElementById('graphql')
 const moralis = document.getElementById('moralis')
+const solidity = document.getElementById('solidity')
 
 
 function move() {
@@ -30,6 +31,7 @@ function move() {
   react.style.left = 26 + incrementer * -1.5 + '%'
   graphql.style.left = 32 + incrementer * -1 + '%'
   moralis.style.left = 38 + incrementer * -0.8 + '%'
+  solidity.style.left = 44 + incrementer * -.7 + '%'
 }
 
 window.addEventListener('scroll', move)
