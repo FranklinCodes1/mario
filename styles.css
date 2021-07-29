@@ -64,6 +64,12 @@ body {
   left: 26%;
 }
 
+#moralis {
+  width: 5%;
+  bottom: 30%;
+  left: 38%;
+}
+
 #graphql {
   width: 5%;
   bottom: 30%;

@@ -7,6 +7,7 @@ const cloudFive = document.getElementById('cloud-five')
 const javascript = document.getElementById('javascript')
 const react = document.getElementById('react')
 const graphql = document.getElementById('graphql')
+const moralis = document.getElementById('moralis')
 
 
 function move() {
@@ -28,6 +29,7 @@ function move() {
   javascript.style.left = 20 + incrementer * -2.2 + '%'
   react.style.left = 26 + incrementer * -1.5 + '%'
   graphql.style.left = 32 + incrementer * -1 + '%'
+  moralis.style.left = 38 + incrementer * -0.8 + '%'
 }
 
 window.addEventListener('scroll', move)
